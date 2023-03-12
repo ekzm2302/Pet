@@ -2,26 +2,20 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".SplashActivity"
-    android:background="#FFFFFF"
-    android:orientation="vertical">
-
-
-    <ImageView
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:layout_gravity="center"
-        android:src="@drawable/pet_logo"/>
+    android:background="@drawable/pet_logo2"
+    android:orientation="vertical"
+    android:layout_gravity="center">
 
     <ProgressBar
-        android:indeterminateTint="#F89605"
-        android:layout_marginTop="70dp"
-        android:layout_gravity="center"
         android:id="@+id/progressBar"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:indeterminateTint="#000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

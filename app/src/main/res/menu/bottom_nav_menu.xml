@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:title="홈"
+        android:enabled="true"
+        android:icon="@drawable/menu_nav_color"
+        android:id="@+id/btm_item1"/>
+    <item
+        app:showAsAction="always"
+        android:title="게시판"
+        android:enabled="true"
+        android:icon="@drawable/menu_nav_color2"
+        android:id="@+id/btm_item2"/>
+    <item
+        app:showAsAction="always"
+        android:title="근처산책"
+        android:enabled="true"
+        android:icon="@drawable/menu_nav_color3"
+        android:id="@+id/btm_item3"/>
+    <item
+        app:showAsAction="always"
+        android:title="실시간채팅"
+        android:enabled="true"
+        android:icon="@drawable/menu_nav_color4"
+        android:id="@+id/btm_item4"/>
+    <item
+        app:showAsAction="always"
+        android:title="나의 펫"
+        android:enabled="true"
+        android:icon="@drawable/menu_nav_color5"
+        android:id="@+id/btm_item5"/>
+
+
+
+
+</menu>
